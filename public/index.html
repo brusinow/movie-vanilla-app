@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+  <title>Movie Database</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a id="logo" href="/"><h1>Movie Database</h1></a>
+  <button type="button" id="favorites-button">Favorites</button>
+  <div id="search-form">
+    <input id="search-field" type="text" placeholder="Enter Search" onkeydown="if (event.keyCode == 13) { event.preventDefault() }" />
+    <button type="button" id="loadButton">Search</button>
+  </div>
+  <ul id="movie-list"></ul>
+  <div id="movie-container"></div>
+
+  <script src="loadMovies.js"></script>
+</body>

@@ -46,7 +46,7 @@ var getFavorites = function() {
   }
 
   // Search Favorites url
-  var searchURL = 'http://localhost:3000/favorites';
+  var searchURL = '/favorites';
 
   // Using GET to recieve data from the API
   xhttp.open("GET", searchURL , true);

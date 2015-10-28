@@ -163,7 +163,7 @@ var appendDom = function(movieObj, type) {
       var xhttp = new XMLHttpRequest();
 
       // Using GET to recieve data from the API
-      xhttp.open("POST", 'http://localhost:3000/favorites', true);
+      xhttp.open("POST", '/favorites', true);
 
       // Send the proper header information along with the request
       xhttp.setRequestHeader("Content-type", "application/json");

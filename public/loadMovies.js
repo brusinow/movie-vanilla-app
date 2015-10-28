@@ -1,5 +1,5 @@
 // The base of our API call
-var baseURL = 'http://www.omdbapi.com/?';
+var baseURL = 'https://www.omdbapi.com/?';
 
 // Our function for making the API call, checking if the response succeeded, and passing the data
 // to the parseMovies function
